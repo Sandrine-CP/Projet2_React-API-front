@@ -1,0 +1,145 @@
+:root {
+  --fontH1: "Cinzel";
+  --fontH2toParagraphs: "Cormorant Garamond";
+  --titleShadow: 4px 4px 5px rgba(29, 27, 27, 0.44);
+  --deepBlue: #112945;
+  --white: #e8dbcf;
+}
+
+.background {
+  height: 100vh;
+  background-image: url("../../assets/images/stars_galaxies_rotation-Universe_HD_Wallpapers_1366x768.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.a-prestations {
+  background-color: rgb(0, 0, 255, 0);
+}
+.liste-systeme-planetaire {
+  margin: auto;
+  /* padding-top: 8rem; */
+  max-width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  .systeme-planetaire {
+    flex: 1 1 calc(50% - 1rem);
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    button {
+      color: azure;
+      width: 100%;
+      border: 0;
+      background-color: rgb(0, 255, 255, 0);
+    }
+  }
+  .spline {
+    width: 100%;
+    height: 100%;
+    min-height: 70vh;
+  }
+
+  /* flex-grow: 0;
+  flex-shrink: 0; */
+  /* flex-wrap: wrap; */
+  /* flex-basis: 400px; */
+}
+.selected {
+  width: 100%;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.guide-div {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+.link {
+  z-index: 2;
+  margin: 0 auto;
+}
+.guide {
+  font-family: var(--fontH1);
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  padding: 0.5rem 2rem;
+  background-color: rgb(250, 235, 215, 0.7);
+  border-radius: 0.5rem;
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+.guide:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 170px 52px rgba(32, 103, 179, 0.75);
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  height: 70vh;
+}
+
+.carousel-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-left {
+  padding-top: 10vh;
+  min-height: 50vh;
+  min-width: 40vw;
+  flex: 1;
+}
+
+.carousel-right {
+  flex: 1;
+  margin-left: 20px;
+  background-color: rgb(217, 217, 217, 0.3);
+  border: 2px solid #a5a5a5;
+  border-radius: 8px;
+  padding: 30px;
+  max-width: 35vw;
+  margin-right: 3rem;
+  h2 {
+    color: #ffffff;
+    text-align: center;
+    font-family: var(--fontH1);
+  }
+  p {
+    color: #fff;
+    font-family: var(--fontH2toParagraphs);
+  }
+}
+
+.carousel-controls {
+  margin-top: 20px;
+}
+
+.carousel-button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.guide-div {
+  position: absolute;
+  bottom: 3vh;
+}

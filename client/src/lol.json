@@ -1,0 +1,33 @@
+{
+  "residences": 
+  {
+    "id": 1,
+    "name": "la maison de marc",
+    "filters": ["lacs de laves", "nebuleuse"],
+    "planetary-systems": "solar system",
+    "planet": "terre"
+  },
+  {
+    "id": 2,
+    "name": "la maison de sandrine",
+    "filters": ["lacs de laves", "nebuleuse"],
+    "planetary-systems": "solar system",
+    "planet": "terre"
+  },
+  {
+    "id": 3,
+    "name": "la maison de marc",
+    "filters": ["lacs de laves", "nebuleuse"],
+    "planetary-systems": "solar system",
+    "planet": "terre"
+
+
+  },
+  {
+    "id": 4,
+    "name": "la maison de marc",
+    "filters": ["lacs de laves", "nebuleuse"],
+    "planetary-systems": "solar system",
+    "planet": "terre"
+  }
+}

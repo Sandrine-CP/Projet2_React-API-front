@@ -1,0 +1,190 @@
+.criteres-container {
+  z-index: 3;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+
+  background-color: #ffffff;
+  width: 40vw;
+  /* height: 85%; */
+  border: 2px solid black;
+  border-radius: 0.4rem;
+  /* background-color: aqua; */
+  color: #0d2c50;
+  .close {
+    background-color: #354558;
+  }
+  .tout {
+    width: 4rem;
+  }
+  button {
+    background-color: #1e4b7e;
+    color: #e8dbcf;
+    width: 2.5rem;
+    box-shadow: 0 2px 0.2rem black;
+    border: 1.5px solid black;
+    border-radius: 30px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.1s;
+  }
+  button:hover {
+    cursor: pointer;
+    background-color: #0d2c50;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.1s;
+  }
+  button:active {
+    background-color: #405772;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.1s;
+  }
+
+  h2 {
+    font-family: var(--fontH1);
+  }
+
+  header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    h1 {
+      width: 100%;
+      text-align: center;
+      font-family: var(--fontH1);
+      font-size: 1.2rem;
+    }
+
+    button {
+      /* height: 80%; */
+      margin: 0.5rem 0.7rem;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      img {
+        /* margin-top: -3px; */
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+      p {
+        color: #dfd5c5;
+      }
+      border: 0.5px black solid;
+      border-radius: 0.3rem;
+    }
+    border-bottom: 1px black solid;
+  }
+
+  .budget {
+    display: flex;
+    h2 {
+      padding: 1.5rem 2rem 1rem 2rem;
+    }
+    justify-content: center;
+    gap: 2rem;
+    flex-direction: column;
+    div {
+      display: flex;
+      justify-content: space-evenly;
+    }
+  }
+
+  .lits {
+    display: flex;
+    /* justify-content: center; */
+    gap: 2rem;
+    flex-direction: column;
+    .carousel-boutons {
+      margin: 1rem 1rem;
+    }
+    div {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      padding: 0 1.3rem;
+
+      button {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        min-height: 1.5rem;
+        margin: 1rem 0.2rem;
+      }
+    }
+    h2 {
+      padding: 3rem 2rem 1rem 2rem;
+    }
+  }
+
+  .chambre {
+    display: flex;
+    /* justify-content: center; */
+    gap: 2rem;
+    flex-direction: column;
+    div {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      padding: 0 1.3rem;
+      button {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        min-height: 1.5rem;
+        margin: 1rem 0.2rem;
+      }
+    }
+    h2 {
+      padding: 3rem 2rem 0rem 2rem;
+    }
+
+    /* .carousel-boutons {
+      margin: 1rem 1rem;
+    } */
+  }
+
+  .date {
+    h2 {
+      /* margin-bottom: 3rem; */
+      margin: 3rem 2rem 3rem 2rem;
+    }
+    .date-grid {
+      margin: 0 10%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5rem;
+
+      .calendar {
+        display: flex;
+        flex-direction: column;
+
+        input {
+          height: 2rem;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+        }
+      }
+      .nuits {
+        display: flex;
+        flex-direction: column;
+
+        input {
+          height: 2rem;
+          width: 100%;
+          display: flex;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .budget-max {
+    margin: 3rem 2rem 3rem 2rem;
+  }
+}

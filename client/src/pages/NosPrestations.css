@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+:root {
+  --fontH1: "Cinzel";
+  --fontH2toParagraphs: "Cormorant Garamond";
+  --titleShadow: 4px 4px 5px rgba(29, 27, 27, 0.44);
+  --deepBlue: #112945;
+  --white: #e8dbcf;
+}
+
+.mainTitlePresta {
+  font-family: var(--fontH1);
+  color: var(--deepBlue);
+  text-align: center;
+  text-shadow: var(--titleShadow);
+  margin-top: 150px; /* Ajouté pour espacement */
+}
+
+.breakLineContainerPresta {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  .breakLinePresta {
+    color: var(--deepBlue);
+    width: 400px;
+  }
+}
+
+.articlePrestaContainer1 {
+  font-family: var(--fontH2toParagraphs);
+  color: var(--deepBlue);
+  display: flex;
+  padding: 20px; /* Réduit de 140px à 20px */
+  justify-content: space-evenly;
+
+  img,
+  .articlePrestaContent {
+    width: 300px;
+  }
+}
+
+.link-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.links {
+  background-color: var(--deepBlue);
+  color: var(--white);
+}
+
+.articlePrestaContainer2 {
+  font-family: var(--fontH2toParagraphs);
+  color: var(--deepBlue);
+  display: flex;
+  padding: 20px; /* Réduit de 140px à 20px */
+  justify-content: space-evenly;
+
+  img,
+  .articlePrestaContent {
+    width: 300px;
+  }
+}

@@ -1,0 +1,170 @@
+body {
+  --fontH1: "Cinzel";
+  --fontH2toParagraphs: "Cormorant Garamond";
+  --deepBlue: #112945;
+  --white: #e8dbcf;
+  min-height: auto;
+
+  h1 {
+    text-shadow: var(--titleShadow);
+  }
+  h2 {
+    text-shadow: var(--titleShadow);
+  }
+  h3 {
+    text-shadow: var(--titleShadow);
+  }
+  .body {
+    color: var(--deepBlue);
+    p {
+      font-family: "Cormorant Garamond";
+      font-size: 1.4rem;
+    }
+    .reservation_container {
+      /* border: 1px solid blue; */
+      width: 80%;
+      min-height: 60vh;
+      margin-left: 10%;
+      margin-top: 15vh;
+      margin-bottom: 5vh;
+    }
+
+    .reservation__main {
+      width: 90%;
+      margin-left: 5%;
+      margin-top: 12vh;
+    }
+
+    p {
+      font-family: "Cormorant Garamond";
+      text-align: center;
+    }
+
+    .reservation__main__title {
+      padding-bottom: 1.5rem;
+      display: flex;
+      justify-content: left;
+      align-items: left;
+
+      h1 {
+        font-family: var(--font-family-title);
+      }
+    }
+
+    .reservation__content {
+      display: grid;
+      grid-template-columns: 2fr 2fr;
+      gap: 1rem;
+    }
+
+    .reservation__column__left {
+      /* border: 1px solid rgb(151, 151, 151); */
+      position: relative;
+      background-color: rgb(247, 247, 247);
+      box-shadow: 0 2px 0.2rem rgb(177, 176, 176);
+      width: 100%;
+      padding: 1.5rem;
+    }
+
+    .reservation__column__right {
+      /* border: 1px solid rgb(151, 151, 151); */
+      position: relative;
+      /* border: 1px solid rgb(185, 185, 185); */
+      background-color: rgb(247, 247, 247);
+      box-shadow: 0 2px 0.2rem rgb(177, 176, 176);
+      width: 100%;
+      padding: 1.5rem;
+    }
+
+    .reservation__title {
+      margin-bottom: 1rem;
+      font-family: var(--font-family-title);
+    }
+
+    .destination__infos__residence {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 1.5rem;
+    }
+    .destination__infos__img {
+      width: 200px;
+      /* height: 80%; */
+      border-radius: 5px;
+    }
+
+    .destination__info__details {
+      display: flex;
+      flex-direction: column;
+      align-content: flex-end;
+      justify-content: space-between;
+      margin-bottom: 1.5rem;
+
+      p {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        .alignRight {
+          text-align: right;
+        }
+      }
+    }
+
+    .dates_duration {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin-bottom: 1.5rem;
+    }
+
+    .label__stay__duration {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+
+    form {
+      display: flex;
+      justify-content: space-between;
+
+      .stay_length {
+        width: 4rem;
+      }
+    }
+
+    .facturation__Info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .label_facturation {
+      p {
+        text-align: left;
+      }
+    }
+
+    .buttons {
+      margin-top: 1rem;
+      left: 10;
+      right: 0;
+      bottom: 0;
+
+      /* width: 40%;
+  display: flex;
+  justify-content: center; */
+
+      .submit_reservation {
+        height: 2rem;
+        min-width: 5rem;
+        background-color: #112945;
+        color: #e8dbcf;
+        box-shadow: 0 2px 0.2rem black;
+        border: 0;
+
+        margin: 3vh 0;
+      }
+    }
+  }
+}

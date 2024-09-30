@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
+
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  color: white;
+  background: white;
+  font-family: "Cormorant Garamond", serif;
+  text-transform: uppercase;
+}
+
+.section-heading {
+  font-size: clamp(1rem, 5vw, 5rem);
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.5em;
+  margin-right: -0.5em;
+  color: rgb(204, 204, 204);
+  width: 90vw;
+  max-width: 1200px;
+}
+
+.section {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  z-index: 1;
+}
+
+.bg {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.take-off {
+  background-image: url("../assets/images/sectionAstronaute2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.ready {
+  background-image: url("../assets/images/sectionReady.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.to {
+  background-image: url("../assets/images/sectionGalaxie4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.visit {
+  background-image: url("../assets/images/sectionEclipse.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.galaxies {
+  background-image: url("../assets/images/sectionGalaxie5.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+h2 * {
+  will-change: transform;
+}

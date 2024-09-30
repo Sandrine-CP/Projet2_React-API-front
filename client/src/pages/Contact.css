@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+:root {
+  --fontH1: "Cinzel";
+  --fontH2toParagraphs: "Cormorant Garamond";
+  --titleShadow: 4px 4px 5px rgba(29, 27, 27, 0.44);
+  --deepBlue: #112945;
+  --white: #e8dbcf;
+}
+
+.mainTitleContact {
+  margin-top: 15vh;
+  font-family: var(--fontH1);
+  color: var(--deepBlue);
+  text-align: center;
+  text-shadow: var(--titleShadow);
+}
+
+.breakLineContact {
+  color: var(--deepBlue);
+  width: 400px;
+}
+
+.break-container {
+  margin-top: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.globalContainerContact {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  gap: 130px;
+  margin-top: -2rem;
+  margin-left: 15vw;
+  margin-bottom: 7rem;
+
+  .globalAddressContainerContact {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 30%;
+    h2 {
+      font-size: 2rem;
+    }
+    address {
+      font-size: 1.5rem;
+    }
+  }
+
+  .addressContainerContact {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fontH2toParagraphs);
+    color: var(--deepBlue);
+    text-align: center;
+  }
+
+  .linkContainerContact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    a {
+      font-family: var(--fontH2toParagraphs);
+      background-color: var(--deepBlue);
+      color: var(--white);
+      text-decoration: none;
+      padding: 10px;
+    }
+  }
+  .imageContainerContact {
+    img {
+      margin-top: 20%;
+      margin-right: 10vw;
+      width: 30vw;
+    }
+  }
+}

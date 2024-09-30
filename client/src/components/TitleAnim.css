@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
+
+.titleAnimContainer {
+  text-align: center;
+  background-color: black;
+  padding: 65px;
+  h1 {
+    color: white;
+    font-family: "Cormorant Garamond";
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    font-size: clamp(1rem, 5vw, 5rem);
+  }
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .letter {
+    font-size: 5vw;
+    display: inline-block;
+  }
+}

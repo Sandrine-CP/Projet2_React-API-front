@@ -1,0 +1,189 @@
+/* .containerConnection {
+  display: flex;
+  background-color: rgb(217, 217, 217, 0.3);
+  border-radius: 2%;
+  border: 7px solid rgba(217, 217, 217, 0.05);
+  flex-direction: column;
+  align-items: center;
+  .identification {
+    min-width: 20vw;
+    min-height: 2.5vh;
+    margin: 0 2rem;
+    margin-top: 0.5rem;
+  }
+  .password {
+    width: 96%;
+    margin: 0.5rem 0.5rem;
+  }
+  hr {
+    border: 1px solid #112a46;
+    margin: 0.5rem 0.5rem;
+  }
+  .buttonAction {
+    padding: 0.5rem 0.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+} */
+.containerConnection {
+  /* margin-top: 40vh; */
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(217, 217, 217, 0.3);
+  padding: 25px;
+  border-radius: 7px;
+  width: 360px;
+  .blockInput {
+    display: flex;
+    flex-direction: column;
+  }
+  .identification {
+    margin: 0 0 10px 0;
+    height: 40px;
+  }
+  .password {
+    margin: 0 0 10px 0;
+    height: 40px;
+  }
+  hr {
+    margin: 0 0 10px 0;
+    border: 1px solid #112a46;
+  }
+  .buttonAction {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    .btnA {
+      background-color: rgb(217, 217, 217, 0.7);
+      color: #112a46;
+      border: none;
+      padding: 10px 17px;
+      font-size: 16px;
+      font-family: var(--fontH1);
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+    .btnLogin {
+      background-color: #112a46;
+      color: #e8dbcf;
+      border: none;
+      padding: 10px 17px;
+      font-size: 16px;
+      font-family: var(--fontH1);
+
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+  }
+  .mdpOublie {
+    margin-top: 1rem;
+    margin-left: -1rem;
+    justify-content: flex-end;
+    display: flex;
+    color: #4c4c4c;
+  }
+  .bouton-authentification {
+    background-color: #112a46;
+    color: #e8dbcf;
+    border: none;
+    padding: 10px 17px;
+    font-size: 16px;
+    font-family: var(--fontH1);
+
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+}
+
+.background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../assets/images/galaxyAcceuil1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.header-nav__inner {
+  position: absolute;
+  top: 3vh;
+  right: 3vh;
+}
+
+.top-logo {
+  display: flex;
+  justify-content: center;
+  max-height: fit-content;
+  .logoTexte {
+    width: 22vw;
+  }
+}
+
+.header-nav__inner {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.header-menu-list {
+  display: none;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 120px;
+  width: 15rem;
+  right: 50px;
+  z-index: 1000;
+  background-color: #fff;
+  border: 1px solid #112945;
+}
+
+.header-menu-list.active {
+  display: flex;
+}
+
+.header-menu-item {
+  margin: 10px 10px;
+  padding: 5px 5px 5px 5px;
+  border: 1px solid #112945;
+}
+
+.header-menu-item a {
+  text-decoration: none;
+  color: #333;
+  background-color: #fff;
+  font-family: "Cinzel", serif;
+  font-size: 12;
+  font-weight: regular;
+  font-style: normal;
+  padding: 10px 20px;
+  display: block;
+}
+
+.header-menu-item a.active {
+  color: #007bff;
+}
+
+.device-menu {
+  cursor: pointer;
+  font-size: 24px;
+  border: none;
+  background-color: transparent;
+  margin-left: auto;
+}
+
+.header_icon {
+  margin-right: 2rem;
+  width: 24px;
+  height: 24px;
+
+  /* filter: drop-shadow(5px 5px 10px rgb(71, 71, 71)); */
+}

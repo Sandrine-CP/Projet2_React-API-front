@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+:root {
+  --fontH1: "Cinzel";
+  --fontH2toParagraphs: "Cormorant Garamond";
+  --titleShadow: 4px 4px 5px rgba(29, 27, 27, 0.44);
+  --deepBlue: #112945;
+  --white: #e8dbcf;
+}
+
+.destination-choisie-container {
+  span {
+    font-size: 1.5rem;
+  }
+  .policeTitre {
+    font-family: "Cinzel";
+  }
+  button {
+    font-family: var(--fontH1);
+  }
+  .gras {
+    font-weight: bold;
+  }
+  span {
+    font-family: var(--fontH2toParagraphs);
+  }
+  li {
+    font-family: var(--fontH2toParagraphs);
+  }
+  .title {
+    /* margin-top: 25vh; */
+    background-color: #e8dbcf82;
+    border-radius: 40px;
+    -webkit-box-shadow: 0px 0px 197px 82px rgba(232, 219, 207, 0.75);
+    -moz-box-shadow: 0px 0px 197px 82px rgba(232, 219, 207, 0.75);
+    box-shadow: 0px 0px 197px 82px rgba(232, 219, 207, 0.75);
+    padding: 5px;
+    font-family: var(--fontH1);
+    text-align: center;
+    font-size: 4rem;
+    font-family: "Cinzel";
+  }
+  .positionAsterix {
+    margin-top: -1.2rem;
+    .asterix {
+      font-style: italic;
+      font-size: 1rem;
+    }
+  }
+}
+
+.background2 {
+  width: 100%;
+  height: 100vh;
+  /* background-image: url("../../assets/images/fandejuliegayet_realistic_a_futuristic_airbnb_house_rental_in_a_842ba776-f0ce-40d1-a6d8-37e1b6cf7dc2-0YHVKGZHI-transformed.png"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  /* .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 5vh auto;
+    min-height: 40vh;
+    background-color: rgb(247, 247, 247);
+    min-width: 90vw;
+    box-shadow: 0 2px 0.2rem rgb(177, 176, 176); */
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  /* border: 1px solid black; */
+  p {
+    font-size: 1.5rem;
+    text-shadow: 3px 3px 1rem rgb#112945;
+  }
+  .detailTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #112945;
+    font-family: "Cinzel", serif;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+  .detailBot {
+    display: flex;
+    flex-basis: 50%;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    color: #112945;
+
+    .detailPart2 {
+      margin-left: 9vw;
+    }
+    .detailPart3 {
+      margin-right: 9vw;
+    }
+
+    .detailNomResidencePlanet {
+      font-family: var(--fontH1);
+    }
+
+    .IconeDesc {
+      width: 3rem;
+      margin-right: 1rem;
+    }
+
+    .exemple4 {
+      margin-top: 15px;
+      margin-bottom: 15px;
+      color: #112945;
+      font-size: 2rem;
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: row;
+      align-items: center;
+      .IconeMaison {
+        margin-top: -5rem;
+      }
+      .IconePiece {
+        margin-top: -4.5rem;
+      }
+    }
+    .exemple5 {
+      margin-top: 15px;
+      margin-bottom: 15px;
+      color: #112945;
+      font-size: 2rem;
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: row;
+      align-items: flex-start;
+
+      .detailBio {
+        margin-bottom: 2rem;
+        .detailBio1 {
+          margin-bottom: 1rem;
+        }
+      }
+
+      .detailResiCaract1 {
+        display: flex;
+      }
+
+      .detailResiCaract2 {
+        margin-left: 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+      .detailEnviCaract1 {
+        margin-bottom: 15rem;
+      }
+
+      .detailEnviCaract2 {
+        margin-bottom: 8rem;
+      }
+    }
+
+    /* .exemple {
+        display: flex;
+        justify-content: space-between;
+        min-width: 300px;
+        margin-top: 0.5rem;
+        color: #112945;
+      }
+      .exemple2 {
+        display: flex;
+        justify-content: space-between;
+        min-width: 300px;
+        margin-top: 1.2rem;
+        color: #112945;
+      }
+      .exemple3 {
+        display: flex;
+        justify-content: flex-end;
+        min-width: 300px;
+        color: #112945;
+      }
+      .exemple4 {
+        display: flex;
+        justify-content: space-between;
+        color: #112945;
+      }
+      .detailResiCaract2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        color: #112945;
+      }
+      .detailEnviCaract2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        color: #112945;
+      } */
+  }
+  /* } */
+}
+.exemple6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #112945;
+  font-size: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.buttons {
+  /* width: 90%; */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+
+  button {
+    margin: 0 2rem;
+    height: 3rem;
+    min-width: 5rem;
+    background-color: #112945;
+    color: #e8dbcf;
+    box-shadow: 0 2px 0.2rem black;
+    border: 0;
+  }
+}
+.linkButton {
+  color: #e8dbcf;
+  text-decoration: none;
+}

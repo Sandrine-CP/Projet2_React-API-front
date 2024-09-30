@@ -1,0 +1,14 @@
+:root {
+  --font-family-title: "Cinzel", serif;
+  --font-family-body: "Cormoran Garamond", serif;
+
+  --clr-neutral-900: #e8dbcf;
+  --clr-neutral-050: #112945;
+}
+
+* {
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: var(--font-family-body);
+}
