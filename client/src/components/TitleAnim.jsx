@@ -8,9 +8,9 @@ gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
 export default function TitleAnim() {
   const titleRef = useRef(null);
-  useEffect(() => {
-    const letters = titleRef.current;
-  });
+  // useEffect(() => {
+  //   const letters = titleRef.current;
+  // });
 
   const onLoad = () => {
     gsap
@@ -47,14 +47,14 @@ export default function TitleAnim() {
   return (
     <div className="titleAnimContainer">
       <h1 className="title" ref={titleRef}>
-        <span className="letter">T</span>
-        <span className="letter">A</span>
-        <span className="letter">K</span>
-        <span className="letter">E</span>
-        <span className="letter">-</span>
-        <span className="letter">O</span>
-        <span className="letter">F</span>
-        <span className="letter">F</span>
+        <span className="letter"> </span>
+        <span className="letter"> </span>
+        <span className="letter">3</span>
+        <span className="letter">2</span>
+        <span className="letter">1</span>
+        <span className="letter"> .</span>
+        <span className="letter"> .</span>
+        <span className="letter"> .</span>
       </h1>
     </div>
   );
